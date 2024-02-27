@@ -18,7 +18,7 @@ Welcome to My Personal Webpage project! This project showcases my personal portf
 cd My-Personal-Webpage
 ```
 
-3.Install dependencies using npm:
+3. Install dependencies using npm:
 ```bash
 npm install
 npm install express
@@ -41,10 +41,10 @@ npm install config
 npm start
 ```
 
-2.Open your web browser and navigate to http://localhost:3000 to view the website.
+2. Open your web browser and navigate to http://localhost:3000 to view the website.
 
 ## Technologies Used
-Node.js
-Express.js
-EJS (Embedded JavaScript)
-HTML/CSS
+- Node.js
+- Express.js
+- EJS (Embedded JavaScript)
+- HTML/CSS
