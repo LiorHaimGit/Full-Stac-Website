@@ -1,13 +1,3 @@
-# Project Name
-
-Short description of your project.
-
-## Table of Contents
-
-- [Description](#description)
-- [Installation](#installation)
-- [License](#license)
-
 # My Personal Website
 Welcome to My Personal Webpage project! This project showcases my personal portfolio website, where you can learn more about me, my skills, and my experience
 
@@ -20,7 +10,7 @@ Welcome to My Personal Webpage project! This project showcases my personal portf
 ### Installation
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/YourUsername/My-Personal-Webpage.git
+   git clone https://github.com/LiorHaimGit/My-Personal-Website.git
    ```
 
 2. Navigate to the project directory:
@@ -28,7 +18,7 @@ Welcome to My Personal Webpage project! This project showcases my personal portf
 cd My-Personal-Webpage
 ```
 
-3.Install dependencies using npm:
+3. Install dependencies using npm:
 ```bash
 npm install
 npm install express
@@ -51,10 +41,10 @@ npm install config
 npm start
 ```
 
-2.Open your web browser and navigate to http://localhost:3000 to view the website.
+2. Open your web browser and navigate to http://localhost:3000 to view the website.
 
 ## Technologies Used
-Node.js
-Express.js
-EJS (Embedded JavaScript)
-HTML/CSS
+- Node.js
+- Express.js
+- EJS (Embedded JavaScript)
+- HTML/CSS
