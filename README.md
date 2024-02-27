@@ -1,20 +1,26 @@
-# Project Name
+# My Personal Website
+Welcome to My Personal Webpage project! This project showcases my personal portfolio website, where you can learn more about me, my skills, and my experience
 
-Short description of your project.
 
-## Table of Contents
+## How to Run
 
-- [Description](#description)
-- [Installation](#installation)
-- [License](#license)
+### Prerequisites
+- Node.js and npm installed on your machine.
 
-## Description
-This project includes the development my portfolio website.
+### Installation
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/YourUsername/My-Personal-Webpage.git
+   ```
 
-## Installation
-To run this project, you need to have the following dependencies installed:
-
+2. Navigate to the project directory:
 ```bash
+cd My-Personal-Webpage
+```
+
+3.Install dependencies using npm:
+```bash
+npm install
 npm install express
 npm install ejs
 npm install body-parser
@@ -29,4 +35,16 @@ npm install config
 npm install config
 ```
 
+## Running the Server
+1. Start the server:
+```bash
+npm start
+```
 
+2.Open your web browser and navigate to http://localhost:3000 to view the website.
+
+## Technologies Used
+Node.js
+Express.js
+EJS (Embedded JavaScript)
+HTML/CSS
