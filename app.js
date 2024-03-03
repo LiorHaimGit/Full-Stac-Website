@@ -37,6 +37,10 @@ app.get('/about', (req, res) => {
     res.render('about'); // Render the about.ejs template
 });
 
+app.get('/blog', (req, res) => {
+    res.render('blog'); // Render the about.ejs template
+});
+
 app.get('/contact', (req, res) => {
     res.render('contact'); // Render the contact.ejs template
 });

@@ -1,0 +1,44 @@
+<!-- blog.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/navigation.js" defer></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+</head>
+<body>
+    <div class="title2">
+        <h1>Blog</h1>
+    </div>
+    <div id="navigation"></div>
+    <main class="blog">
+        <section class="blogIntro">
+            <div class="intro-photo-text">
+                <div class="introText">
+                    <p>Welcome to my blog page, a dynamic corner of my portfolio website where I aim to showcase the breadth and depth of my skill set.
+                    </p>
+                    <p>Through these digital pages, I invite you on a journey through various topics, each carefully selected to not only pique your interest but also to highlight my capabilities and expertise. Whether it's delving into the nuances of design, unraveling the intricacies of coding, or exploring the latest trends in technology and beyond, this blog is a testament to my passion for continuous learning and my commitment to excellence in every endeavor.
+                    </p>
+                    <p>Join me as we embark on a voyage of discovery, innovation, and inspiration. Together, let's explore the realms of creativity, problem-solving, and ingenuity, all while I demonstrate the diverse skill set that defines me as a professional in this ever-evolving digital landscape. Welcome aboard!
+                    </p>
+                </div>
+                <div class="introPhoto">
+                    <img src="/images/ProfilePhoto.jpg" alt="My photo">  
+                </div>
+            </div>
+        </section>
+        <section class="blogDivider">
+            <img src="/images/divider.png" alt="Description of photo">             
+        </section>
+        <%- include('./blog/blogKalmanFilter') %>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Website</p>
+    </footer>
+</body>
+</html>

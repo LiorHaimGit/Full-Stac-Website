@@ -9,6 +9,10 @@ document.addEventListener("DOMContentLoaded", function() {
                 <img src="/images/about_icon.png" alt="My Story">
                 <span>My Story</span>
             </a>
+            <a href="/blog">
+                <img src="/images/blog_icon.png" alt="Blog">
+                <span>Blog</span>
+            </a>
             <a href="/resume">
                 <img src="/images/resume_icon.png" alt="Resume">
                 <span>Resume</span>

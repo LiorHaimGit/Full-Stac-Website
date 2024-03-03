@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #222; /* Dark background color */
+    background-color: #000000; /* Dark background color */
     color: #fff; /* Light text color */
     display: flex;
     flex-direction: column;
@@ -14,9 +14,9 @@ body {
     padding: 2% 10%;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
-    background-image: url("../images/background2.jpg");
+    background-image: url("../images/background.png");
     background-repeat: no-repeat;
-    background-size:    cover;
+    background-size:    inherit;
 }
 
 .title {
@@ -205,4 +205,86 @@ body {
 
 .underline {
     text-decoration: underline;
+}
+
+.blogIntro {
+    margin: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row; /* Change flex-direction to row */
+    align-items: center; /* Vertically center align items */
+}
+
+.intro-photo-text {
+    flex: 1; /* Allow the container to grow to fill available space */
+    display: flex; /* Nested flex container */
+}
+
+.introText {
+    flex: 1; /* Allow the text to grow */
+    font-size: 25px;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+.introPhoto {
+    flex: 0 0 auto; /* Don't allow the photo to grow or shrink */
+    width: 30%; /* Adjust width */
+    margin-right: 20px; /* Add margin to create space between image and text */
+}
+
+.introPhoto img {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+.blogDivider{
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+.blogTitle{
+    margin-top: 100px;
+    opacity: 0;
+    font-weight: bold;
+    font-size: 30px;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+.blogSubtitle{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    opacity: 0;
+    font-size: 25px;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+.blogPhotoText{
+    display: flex;
+    align-items: start; /* Align items to the top */
+    margin-bottom: 50px;
+}
+
+.blogText {
+    margin-top: 50px;
+    flex: 1; /* Allow the text to grow */
+    font-size: 23px;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+.blogPhoto {
+    flex: 0 0 auto; /* Don't allow the photo to grow or shrink */
+    width: 30%; /* Adjust width */
+    margin-right: 0px; /* Add margin to create space between image and text */
+}
+
+.blogPhoto img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+.bullet {
+    margin-left: 50px;
 }

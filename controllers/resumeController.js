@@ -1,4 +1,4 @@
-const emailSender = require('../utils/email'); // adjust the path according to your project structure
+const emailSender = require('../utils/email');
 
 exports.submitResume = (req, res) => {
     const email = req.body.email;
