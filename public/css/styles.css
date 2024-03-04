@@ -265,23 +265,23 @@ body {
     margin-bottom: 50px;
 }
 
-.blogText {
-    margin-top: 50px;
+.blogText {    
+    margin-left: 30px;
     flex: 1; /* Allow the text to grow */
     font-size: 23px;
     animation: fadeIn 1s ease-in-out forwards;
+    
 }
 
 .blogPhoto {
     flex: 0 0 auto; /* Don't allow the photo to grow or shrink */
     width: 30%; /* Adjust width */
-    margin-right: 0px; /* Add margin to create space between image and text */
+    margin-right: 0px;
 }
 
 .blogPhoto img {
     width: 100%;
     height: auto;
-    border-radius: 50%;
     opacity: 0;
     animation: fadeIn 1s ease-in-out forwards;
 }
