@@ -1,4 +1,4 @@
-# Full Stac Website
+# Full-Stac Website
 Welcome to My Personal Webpage project! This project showcases my personal portfolio website, where you can learn more about me, my skills, and my experience
 
 
